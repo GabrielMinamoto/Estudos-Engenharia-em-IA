@@ -67,3 +67,18 @@ type(aluguel)
 #float - números decimais
 #str - texto
 #bool - verdadeiro ou falso
+#-----------------------------
+#MANIPULAÇÃO DE STRINGS
+# exemplo:
+#inicial ="     Fabricio CARRaro da alura "
+#final = "FABRICIO CARRARO DA ALURA"
+texto ="     Fabricio CARRaro  da alura "
+print(texto)
+print(texto.lower())
+print(texto.upper())
+print(texto.strip())#remove os espaços em branco do início e do fim
+print(texto.replace("  ", " "))#substitui os dois espaços por um espaço
+#A variavel texto não é alterada, para alterar a variável texto, preciso atribuir o resultado da manipulação a ela
+texto = texto.upper().strip().replace("  ", " ")
+print(texto)
+#-----------------------------
