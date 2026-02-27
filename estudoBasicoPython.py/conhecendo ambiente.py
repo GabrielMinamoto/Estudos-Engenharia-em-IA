@@ -91,3 +91,35 @@ print(idade)
 idade = int(idade)
 print("A pessoa se chama " + nome + " e tem " + str(idade) + " anos")#salva temporariamente a idade como string para concatenar com o texto
 print(f"A pessoa se chama {nome} e tem {idade} anos")#Jeito mais facil e moderno
+#-----------------------------
+#ESTRUTURAS CONDICIONAIS - IF, ELSE, ELIF
+nome = input("Digite seu nome: ")
+idade = int(input("Digite seu idade: "))
+if idade >= 18: 
+  print(f"O {nome} pode entrar na festa, porque é maior de idade")
+  print(f"Ele tem {idade} anos")
+else:
+  print(f"O {nome} não pode entrar na festa, porque é menor de idade")
+  print(f"Ele tem {idade} anos")
+
+# <---->
+media = float(input("Digite sua média: "))
+
+if media >= 7:#se
+  print(f"Aprovado, sua média foi: {media}")
+elif media >= 5:#senao se
+  print(f"Recuperação, sua média foi: {media}")
+else:#senao
+  print(f"Reprovado, sua média foi: {media}")
+  
+# <---->
+media = float(input("Digite sua média: "))
+
+if media < 5:
+  print(f"REPROVADO, sua média foi: {media}")
+elif media >= 5 and media < 7:
+  print(f"Recuperação, sua média foi: {media}")
+else:
+  print(f"APROVADO, sua média foi: {media}")
+  
+  #-----------------------------
