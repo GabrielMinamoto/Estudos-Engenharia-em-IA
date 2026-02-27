@@ -40,3 +40,6 @@ total_de_carros = carro * 2
 print(total_de_carros)
 total = aluguel + supermercado + total_de_carros
 print(total)
+#divisão de variaveis
+total_por_pessoa = total / amigos
+print(total_por_pessoa)
