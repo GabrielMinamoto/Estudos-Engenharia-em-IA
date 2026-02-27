@@ -25,3 +25,8 @@ supermercado = 500
 carro = 400
 total = ( aluguel + supermercado + carro)
 print(total)
+#subtração de variaveis
+aluguel = aluguel - 100
+print(aluguel)
+total = ( aluguel + supermercado + carro)
+print(total)
