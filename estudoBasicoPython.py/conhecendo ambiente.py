@@ -82,3 +82,12 @@ print(texto.replace("  ", " "))#substitui os dois espaços por um espaço
 texto = texto.upper().strip().replace("  ", " ")
 print(texto)
 #-----------------------------
+#ENTRADA DE DADOS - INPUT
+nome = input("Digite seu nome: ")
+print(nome)
+idade = input("Digite seu idade: ")
+print(idade)
+#o input sempre retorna uma string, para converter para inteiro, uso a função int() 
+idade = int(idade)
+print("A pessoa se chama " + nome + " e tem " + str(idade) + " anos")#salva temporariamente a idade como string para concatenar com o texto
+print(f"A pessoa se chama {nome} e tem {idade} anos")#Jeito mais facil e moderno
