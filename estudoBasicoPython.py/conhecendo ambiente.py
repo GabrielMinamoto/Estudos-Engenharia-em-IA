@@ -43,3 +43,8 @@ print(total)
 #divisão de variaveis
 total_por_pessoa = total / amigos
 print(total_por_pessoa)
+#REGRAS DE NOMENCLATURA
+#1- Não pode começar com número
+#2- Não pode conter espaços
+#3- Não pode conter caracteres especiais
+#4- Não pode ser o nome de um comando do Python
