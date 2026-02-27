@@ -18,3 +18,10 @@ nomeProduto3 = "bala"
 print( nomeProduto1 + nomeProduto2 + nomeProduto3)
 #separando os nomes
 print( nomeProduto1 + " " + nomeProduto2 + " " +nomeProduto3)
+#soma de variaveis
+amigos = 5
+aluguel = 1000
+supermercado = 500
+carro = 400
+total = ( aluguel + supermercado + carro)
+print(total)
