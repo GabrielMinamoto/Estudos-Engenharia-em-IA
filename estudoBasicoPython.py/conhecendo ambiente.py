@@ -30,3 +30,13 @@ aluguel = aluguel - 100
 print(aluguel)
 total = ( aluguel + supermercado + carro)
 print(total)
+#multiplicação de variaveis
+amigos = 6
+aluguel = 1000
+supermercado = 500
+carro = 400
+print(carro * 2)
+total_de_carros = carro * 2
+print(total_de_carros)
+total = aluguel + supermercado + total_de_carros
+print(total)
